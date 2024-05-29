@@ -1,0 +1,54 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bfdf81;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 400px;
+    height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.buttons {
+    position: absolute;
+    top: 100%;
+    left: 28%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+#noButton {
+    position: absolute;
+}
