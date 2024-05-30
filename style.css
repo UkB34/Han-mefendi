@@ -6,7 +6,10 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #bfdf81;
+    background-image: url('backround1.jpg'); /* Arka plan resmi */
+    background-size: cover; /* Resmin sayfa boyutuna uyacak şekilde ölçeklendirilmesi */
+    background-repeat: no-repeat; /* Resmin tekrar edilmemesi */
+    background-position: center; /* Resmin ortalanması */
 }
 
 .container {
@@ -49,6 +52,24 @@ button {
     transition: all 0.1s;
 }
 
+#yesButton {
+    background-color: rgb(83, 14, 63);
+    color: rgb(0, 0, 0)e;
+}
+
+
+#yesButton:hover {
+    background-color: rgb(26, 0, 19);
+}
+
+#noButton {    position: absolute;
+}
+
 #noButton {
-    position: absolute;
+    background-color: rgb(83, 14, 63);
+    color: rgb(0, 0, 0)e;
+}
+
+#noButton:hover {
+    background-color: rgb(26, 0, 19);
 }
